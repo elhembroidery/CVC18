@@ -17,9 +17,11 @@ body {
   color: #f2f2f2;
   text-align: center;
   padding: 10px 10px;
-  font-weight: bold;
+  font-weight: lighter;
   text-decoration: none;
   font-size: 17px;
+  color: azure;
+  margin: 0 0;
 }
 
 .topnav a:hover {
@@ -72,6 +74,17 @@ body {
   margin: 2px auto;
 }
 
+.parallax {
+  background-image: url("./images/Stainfree_Berber_DeluxeEDITED.JPG");
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0;
+}
+
+
 h3 {
   text-align: center;
 }
@@ -81,28 +94,23 @@ p {
   max-width: 500px;
 }
 .areas {
-  background-color: #ddd;
-  padding: 10px 10px 30px 10px;
+  background: url("./images/icons/CVC_map2.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30%;
+  width: 100%;
+  padding: 10px 10px;
   margin: 0px auto;
   text-align: center;
   float: center;
-}
-
-#InfoFooter {
-  text-align: center;
-  float: center;
-  margin: 5px auto;
-}
-
-.footerInfo {
-  text-align: center;
-  float: center;
-  margin: 5px auto;
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
 }
 
 .bottomcontainer {
   position: absolute;
-  bottom: 0px;
+  bottom: 120px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -112,6 +120,7 @@ p {
   text-align: center;
   margin: 0 auto;
   line-height: 1.8em;
+  padding-bottom: 0px;
 }
 
 .phoneno {
